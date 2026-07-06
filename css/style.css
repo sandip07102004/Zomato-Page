@@ -1,0 +1,113 @@
+/* Reset default browser styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body{
+    background-color: #ffffff;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background-color: #e23744; /* Zomato red */
+}
+
+/* Logo */
+.logo img{
+    width: 120px;
+}
+
+/* Navigation menu */
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul li{
+    margin-left: 25px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/* MAIN SECTION */
+
+main{
+    height: 80vh;
+    background-image: url("../img/bg.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main logo */
+
+main img:first-child{
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+/* Text */
+
+main p{
+    font-size: 28px;
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* App download images */
+
+main img{
+    margin: 10px;
+}
+
+/* Search bar */
+
+main input{
+    margin-top: 20px;
+    width: 450px;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+main input:focus{
+    box-shadow: 0 0 8px rgba(226,55,68,0.7);
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #e23744;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
